@@ -1,0 +1,240 @@
+<html>
+	<head>
+
+		<style>
+			/*p {
+				color: green;
+			}
+
+			.blue-paragraph {
+				color: blue;
+			}
+
+			.purple-paragraph {
+				color: purple;
+			}
+
+			.underline-class {
+				text-decoration: underline;
+			}
+
+			button {
+			  color: red;
+			}
+			
+			.primary {
+			  color: blue;
+			}
+			
+			#checkout {
+			  color: green;
+			}
+
+
+			h1 {
+				background-color: inherit;
+			}
+
+			:root {
+				--primary-color: blue;
+			}
+
+
+
+			@layer default, utility;
+
+			@layer default {
+				.colorful-div {
+					color: purple;
+				}
+
+			}
+
+
+			@layer utility {
+				div {
+				color: red;
+				}
+			}
+
+			p, a { 
+				color: red;
+			 }*/
+/*
+			 li:first-child {
+			 	text-decoration: underline;
+			 }
+
+			 li:hover {
+			 	color: green;
+			 }
+
+			 p::first-letter {
+			 	text-decoration: underline;
+			 	font-size: 200%;
+			 }
+
+			form:has(input:invalid) {
+	  			border-color: red;
+			}*/
+
+			.box-container {
+				display: flex;
+				justify-content: space-between;
+				height: 200px;
+				align-items: center;
+				border: 1px solid black;
+			}
+
+
+
+			div {
+				color: maroon;
+			}
+
+			@media(max-width: 500px) {
+				div {
+					color: palegreen;
+				}
+
+			}
+
+			.daddy-div {
+				font-size: 20px;
+			}
+
+			.child-absolute {
+				font-size: 32px;
+			}
+
+			.child-relative {
+				font-size: 200%;
+			}
+
+			.overflow-paragraph {
+				border: 1px solid;
+				height: 200px;
+				width: 200px;
+				overflow: hidden;
+
+				color: oklch(55% 0.21 20 / 50%)
+
+			}
+
+			.box {
+				height: 100px;
+				width: 100px;
+				background-color: green;
+				border: 2px solid;
+				padding: purple 50px;
+				margin: 10px;
+				transition: 500ms;
+				transform: rotate(0deg);
+			}
+
+			.box:hover {
+				transform: rotate(360deg);
+			}
+
+		</style>		
+	</head>
+
+	<body>
+
+		<div class="box">
+			Hola
+		</div>
+
+		<p class="overflow-paragraph">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo nulla, laoreet non rutrum vitae, ullamcorper et elit. Donec porttitor mattis tortor bibendum bibendum. Maecenas ornare felis sed nunc elementum, ut ullamcorper purus consectetur. Praesent id lorem iaculis, interdum nisl vitae, mattis dui. Vivamus a augue maximus, porttitor neque in, fringilla turpis. Duis maximus porta odio nec maximus. Aenean ac neque eu mi mollis vehicula vitae id urna. Suspendisse potenti. Mauris hendrerit nisi velit, at dictum dolor pellentesque eu. Fusce finibus, mauris vel placerat luctus, lacus nulla tempor elit, vitae tempus nulla magna non nulla. Suspendisse sit amet lorem ut urna semper cursus. Nulla auctor maximus lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Morbi cursus bibendum velit, quis cursus velit feugiat at. Duis vel orci porttitor, ultrices diam et, auctor velit. Suspendisse purus lectus, tempus in eros non, convallis tempor libero. Nulla suscipit tortor ac leo consequat cursus. Sed pharetra magna vel ultrices gravida. Aliquam tincidunt leo a convallis efficitur. Vestibulum ac enim eget felis viverra scelerisque. Nullam sit amet eros magna. Pellentesque ipsum elit, maximus sit amet molestie vel, malesuada nec sapien. Vivamus eleifend ante quis aliquet euismod. Nulla eu hendrerit nunc. Pellentesque lacinia fermentum lacus vel ornare. Nam eu augue quis tortor molestie blandit.
+
+Sed diam magna, facilisis venenatis dignissim dapibus, sodales nec mauris. Nulla tempus malesuada magna vel malesuada. Morbi dignissim commodo orci condimentum laoreet. Pellentesque et euismod neque. Donec nec leo et ex dictum interdum. Duis et turpis magna. Nam condimentum, risus sit amet congue ullamcorper, magna orci elementum leo, vitae blandit quam elit sed sem. Sed convallis ligula vitae diam gravida mattis. Sed egestas quis nisi eu blandit. Nullam ut nisl vel erat lacinia pellentesque.
+
+Phasellus feugiat, ex et interdum molestie, orci neque dapibus velit, sed mollis magna diam sed tortor. Cras eu eros leo. Mauris id condimentum metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum pretium ultrices tortor eu lacinia. Nunc sit amet massa ac sem laoreet sagittis nec non neque. Aenean luctus posuere ex at viverra. Fusce neque ipsum, efficitur ut odio quis, gravida pulvinar tortor. Donec porttitor enim sed mauris hendrerit, et gravida nisi sollicitudin.
+
+In aliquam dui magna, a feugiat massa pretium ut. Morbi in lorem maximus, placerat leo sed, faucibus lectus. Vestibulum ante est, faucibus sit amet egestas vitae, semper sit amet erat. Suspendisse volutpat diam ut justo auctor placerat. Nulla tortor erat, sagittis vitae vestibulum eget, varius vel nisl. Sed elit nisi, eleifend et erat ac, blandit posuere ex. Ut et malesuada libero, in pulvinar massa. Suspendisse in turpis euismod, viverra augue id, facilisis neque. Aenean lacinia sem est, sed porta lacus porta sed. Nullam commodo nisi sit amet augue finibus, eget vulputate arcu malesuada. Maecenas at dolor eu massa lacinia porta. Sed dolor purus, vehicula ut tortor venenatis, tempus molestie nulla. Aenean vestibulum auctor quam quis scelerisque.
+		</p>
+
+
+		<div class="daddy-div">
+
+			<div class="child-relative">I am going to be relative</div>
+
+			<div class="child-absolute">I am going to be absolute</div>
+
+		</div>
+
+
+<!-- 		
+
+		<div class="box-container">
+
+			<div class="box">
+				Hi
+			</div>
+
+			<div class="box">
+				Hello
+			</div>
+
+			<div class="box">
+				Goodbye
+			</div>
+		</div>
+
+
+
+		<form>
+			<label>Add email here:</label>
+			<input type="email">
+		</form>
+
+		<p>
+			This is the first time I've written thi sentence
+		</p>
+
+
+		<h2>My favorite classes at NEU</h2>
+		<ol class="favorites">
+			<li>CS5610</li>
+			<li>CS5610</li>
+			<li>CS5610</li>
+		</ol> -->
+
+<!-- 
+		<div class="colorful-div" id="FirstDiv">
+			<h1>
+				I am big scary h1
+			</h1>
+			I am a single lonely div :(
+		</div>
+
+		<h1>
+			I am a second h1 tag
+		</h1>
+
+
+		<button class="primary" id="checkout">
+			Click me
+		</button>
+
+		<button class="primary" id="checkout">
+			Delete
+		</button>
+
+		
+
+
+		<p class="purple-paragraph blue-paragraph underline-class">
+		 	This is a paragraph
+		</p>
+
+		<div>
+			This is a div
+		</div> -->
+
+	</body>
+
+</html>
